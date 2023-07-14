@@ -1,9 +1,11 @@
 	#include <stdio.h>
 	/**
-	*This is my first program
-	*I am happy to do it
+	* main - show  This is my first program
+	* return:0 and exit the program
 	*/
-	int main(avoid)
-{ 	puts("/"Programming is like building a multilingual puzzle");
+	int main(void)
+
+{ 	
+	puts("/"Programming is like building a multilingual puzzle");
 	return (0);
 }
