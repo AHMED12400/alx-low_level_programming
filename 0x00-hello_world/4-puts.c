@@ -1,4 +1,4 @@
-	int (stdio.h)
+	#include <stdio.h>
 	/**
 	*This is my first program
 	*I am happy to do it
