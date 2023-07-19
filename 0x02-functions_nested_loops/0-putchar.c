@@ -7,5 +7,8 @@
 */
 
 int main(void)
-	int putchar("putchar"/n);
-	return (0);
+{
+	int (char "printf")
+	int puts(char;\n)
+	return(0);
+}                    
