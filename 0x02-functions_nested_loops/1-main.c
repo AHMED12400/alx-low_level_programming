@@ -1,2 +1,2 @@
 #include "main.h"
-int ("lowercase");
+int (void print_alphabet(void);
