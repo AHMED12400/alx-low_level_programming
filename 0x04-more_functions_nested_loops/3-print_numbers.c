@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - write numbers
+ * print_numbers - check the code.
  *
- * Return: Always
+ * Return: Always .
  */
 
 void print_numbers(void)
@@ -15,5 +15,4 @@ void print_numbers(void)
 		_putchar('0' + i);
 	}
 		_putchar('\n');
-
 }
