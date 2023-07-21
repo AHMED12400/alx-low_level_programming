@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - write 0 to 9
+ * main - write numbers
  *
- * Return: Always 0.
+ * Return: Always
  */
 void print_numbers(void)
 {
