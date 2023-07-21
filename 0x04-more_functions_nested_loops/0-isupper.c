@@ -6,11 +6,11 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c)
-	int _isupper(int c);
-	char c;
+        int _isupper(int c);
+        char c;
 {
-	if (c <= 'A' && c <= 'Z')
-		return (1);
-	else 
-		return (0);
+        if (c <= 'A' && c <= 'Z')
+                return (1);
+        else
+                return (0);
 }
