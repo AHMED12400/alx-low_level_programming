@@ -8,9 +8,9 @@
 int mul(int a, int b);
 
 int main()
+	a 2;
+	b 4;
 {
-	int a = 2;
-	int b = 4;
-	int result = multiply(a, b);
+	int mul = a * b
 	return 0;
 }
