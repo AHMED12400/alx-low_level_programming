@@ -11,9 +11,10 @@
  */
 int _putchar(char c)
 	int _isupper(int c);
+	char c;
 {
-	for (c 'A'; c == 'A'; c++)
-	       _putchar(c);	
+	for (c _isupper)
+	       _putchar("%d: /n");	
 
 	return (write(1, &c, 1));
 }
