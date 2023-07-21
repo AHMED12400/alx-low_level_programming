@@ -6,7 +6,8 @@
  * Return: Always 0.
  */
 void print_numbers(void);
+	int i
 {
-    char("%i /n")
+    for (i = 0; i < 10 ; i++)
     return (0);
 }
