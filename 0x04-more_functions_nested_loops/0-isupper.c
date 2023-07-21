@@ -1,16 +1,14 @@
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _isupper - Checks for uppercase character
+ * @c: The character to be checked
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 1 if c is uppercase, 0 otherwise
  */
-int _putchar(char c)
-        int _isupper(int c);
-        char c;
+int _isupper(int c)
 {
-        if (c <= 'A' && c <= 'Z')
-                return (1);
-        else
-                return (0);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
+
