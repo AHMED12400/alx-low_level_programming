@@ -6,9 +6,10 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _isdigit(int c)
-
+char c
 {
-	if (c <= 9 && c >= 0)
+	/* c is digit */
+	if (c <= 9)
 		return (1);
 	else
 		return (0);
