@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - program that look at digit
+/** 
+ * main - program that look at digit
  * Return: 0 and exit the program
  */
 
@@ -18,6 +19,6 @@ int main(void)
 	else if (n % 10 == 0)
 		printf("and is 0\n");
 	else if (n % 10 < 6 && n % 10 != 0)
-		printf("is less than 6 and not 0\n");
+		printf("and is less than 6 and not 0\n");
 	return (0);
 }
