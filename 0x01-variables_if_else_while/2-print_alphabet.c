@@ -6,9 +6,10 @@
  */
 
 int main(void)
-	int = a z
+	char letter
 
-	putchar("%c");
+	for (letter = 'a'; letter <= 'a'; letter++)
+	putchar("%c letter");
 	putchar("\n");
 
 	return (0);
