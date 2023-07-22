@@ -4,6 +4,7 @@
  * main - prints the alphabet in uppercase and lowercase, followed by a new line
  * Return: return 0 and exit the program
  */
+
 int main(void)
 {
 	char letter;
