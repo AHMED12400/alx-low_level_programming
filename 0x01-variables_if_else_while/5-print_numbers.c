@@ -6,7 +6,7 @@
  */
 
 int main(void)
-
+{
 	int number;
 
 	for (number = 0; number < 10; number++)
@@ -14,3 +14,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
+}
