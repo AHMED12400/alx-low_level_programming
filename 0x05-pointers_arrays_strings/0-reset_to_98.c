@@ -10,12 +10,13 @@ void reset_to_98(int *n);
 
 {
 	int n;
-	n = 98;
+	n = 402;
+	int *ptr;
+	ptr = &;
 
-	*ptr = &n;
-    n = 402;
     for (n = 402; n <= 402; reset_to_98(&n);
-	putchar("n=%d\n", n);
+	putchar("n=%u\n", ptr);
+	reset_to_98(&n);
 	putchar("n=%d\n", n);
     return (0);
 }
