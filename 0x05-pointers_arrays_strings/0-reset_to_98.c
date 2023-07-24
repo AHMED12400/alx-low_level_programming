@@ -12,8 +12,9 @@ void reset_to_98(int *n)
 	int n;
 	n 402;
 	int *ptr;
-	putchar("n=%d\n", (*ptr));
-	putchar("n=%d\n", (&ptr));
+	putchar("n=%d\n", n);
+	
+	putchar("n=%d\n", reset_to_98(&n));
 
 	return (0);
 }
