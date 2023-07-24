@@ -16,7 +16,6 @@ void reset_to_98(int *n);
 
 	putchar("n=%u\n", &ip);
 
-	(reset_to_98(&n);
 
 	putchar("n=%d\n", *ip );
     return (0);
