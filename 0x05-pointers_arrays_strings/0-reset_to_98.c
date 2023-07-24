@@ -9,7 +9,7 @@
 int main(void)
 {
 	int n;
-	int *ptr = &n
+	int *ptr = &n;
 
     n = 402;
     printf("n=%d\n", n);
