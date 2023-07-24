@@ -14,9 +14,8 @@ void reset_to_98(int *n);
 
 	*ptr = &n;
     n = 402;
-    for (n = 402; n <= 98; &n);
+    for (n = 402; n <= 402; reset_to_98(&n);
 	putchar("n=%d\n", n);
-    reset_to_98(&n);
 	putchar("n=%d\n", n);
     return (0);
 }
