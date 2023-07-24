@@ -10,11 +10,10 @@ void reset_to_98(int *n)
 
 {
 	int n;
-	n = 402;
-	int *ip;
-	ip = &n;
-	putchar("n=%u\n", &ip);
-	putchar("n=%d\n", *ip );
+	n 402;
+	int *ptr;
+	putchar("n=%d\n", *ptr);
+	putchar("n=%d\n", &ptr);
 
 	return (0);
 }
