@@ -6,14 +6,15 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void reset_to_98(int *n);
+
 {
 	int n;
-	int *ptr = &n;
-
+	*ptr = &n;
     n = 402;
-    printf("n=%d\n", n);
+    for (n = 402; n = 402; &n);
+	putchar("n=%d\n", n);
     reset_to_98(&n);
-    printf("n=%d\n", n);
+	putchar("n=%d\n", n);
     return (0);
 }
