@@ -1,5 +1,6 @@
 #include <main.h>
 #include <stdio.h>
+#include <strings.h>
 
 /**
  * main - check the code
@@ -11,5 +12,7 @@
 char *_strcat(char *dest, char *src)
 
 {	
-	char = *_strcat(s1, s2);
+	char *dest = s1
+	char *src = s2
+
 }
