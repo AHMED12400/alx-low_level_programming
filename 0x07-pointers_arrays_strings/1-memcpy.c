@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * @_memcpy: function copies n bytes from memory area src to memory area dest
+ * _memcpy -  function copies n bytes from memory area src to memory area dest
  * @dest: type char pointer
  * @src: type char memory area
  * @n: type char bytes from src to dest
