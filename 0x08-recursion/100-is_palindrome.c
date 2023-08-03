@@ -19,11 +19,11 @@ int _strlen_recursion(char *s)
 
 int is_palindrome(char *s)
 {
-	int s;
-	
-	if (s = '/0')
-	{
+	int l;
+
+	l = _strlen_recursion(s);
+	if (l <= 1)
 	return (1);
 	else
 	return (0);
-	}
+}
