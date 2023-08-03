@@ -20,7 +20,8 @@ int _strlen_recursion(char *s)
 int is_palindrome(char *s)
 {
 	int s;
-	if (i = 0; i < 0; i++)
+	
+	if (s = '/0')
 	{
 	return (1);
 	else
