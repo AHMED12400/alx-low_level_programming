@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - a new type of struct 
+ * Return: 0.
+ */
+
 struct dog
 {
 	char *name;
