@@ -2,11 +2,10 @@
 #include "function_pointers.h"
 
 /**
- * print_name - prints a name as is
+ * print_name - function prints a name of person
  * @name: name of the person
- * @f: address
- *
- * Return: Nothing.
+ * @f: address or pointer
+ * Return: f(name.
  */
 
 void print_name(char *name, void (*f)(char *))
