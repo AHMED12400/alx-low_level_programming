@@ -1,5 +1,5 @@
-#ifndef /*MY FUN*/
-#define /*MY FIN*/
+#ifndef FUNCTION_POINTERS
+#define FUNCTION_POINTERS
 
 #include <stddef.h>
 #include <stdlib.h>
