@@ -12,6 +12,7 @@
 void print_name(char *name, void (*f)(char *))
 
 int main(void)
+{
 	char a;
 	char *fa
 	fa = a
@@ -20,3 +21,5 @@ int main(void)
     printf("%c" "\n", name);
 
 }
+	return(0);
+	}
