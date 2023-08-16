@@ -11,8 +11,10 @@
  * Return: -1
  */
 
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
+
 	int elem;
 
 	if (size <= 0)
