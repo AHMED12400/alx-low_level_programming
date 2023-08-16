@@ -5,13 +5,14 @@
  * @array: a set of numbers and characters
  * @action: is a pointer to the function needed to use
  * @size: is size of array
- * Return: 0
+ * Return: array i
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 
 {
 	size_t i;
+
 	for (i = 0; i < size; i++)
 	{
 	action(array[i]);
