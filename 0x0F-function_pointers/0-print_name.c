@@ -23,3 +23,12 @@ int main(void)
 }
 	return(0);
 	}
+
+int main(int)
+{
+	int *ptra;
+	int *ptrvoid print_name;
+	ptra = ptrvoid print_name;
+
+	return(a);
+}
