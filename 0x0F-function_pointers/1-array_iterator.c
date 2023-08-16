@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include  "function_pointers.h"
+#include "1-main.c"
+
 /**
  * array_iterator - is a function that executes a function given as a parameter
  * @array: a set of numbers and characters
@@ -11,7 +13,6 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 
 {
-
 	size_t i;
 
 	for (i = 0; i < size; i++)
