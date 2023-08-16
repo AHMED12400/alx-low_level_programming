@@ -1,5 +1,8 @@
-#include <stdio.h>
 #include "function_pointers.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include "main.h"
+
 /**
  * int_index - is a  function that searches for an integer
  * @array: number of elements
