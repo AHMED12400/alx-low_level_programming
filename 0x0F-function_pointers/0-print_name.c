@@ -11,24 +11,7 @@
 
 void print_name(char *name, void (*f)(char *))
 
-int main(void)
 {
-	char a;
-	char *fa
-	fa = a
-	for (a = 0; a <= 0; a++) 
-{
-    printf("%c" "\n", name);
-
-}
-	return(0);
-	}
-
-int main(int)
-{
-	int *ptra;
-	int *ptrvoid print_name;
-	ptra = ptrvoid print_name;
-
-	return(a);
+	if (name = 0 && f = 0)
+	return(name);
 }
